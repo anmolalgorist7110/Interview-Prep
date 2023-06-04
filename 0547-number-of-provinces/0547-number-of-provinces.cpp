@@ -1,3 +1,5 @@
+//TIME: O(n*n)
+//SPACE: O(N)
 class Solution {
 public:
     int findCircleNum(vector<vector<int>>& isConnected) {
