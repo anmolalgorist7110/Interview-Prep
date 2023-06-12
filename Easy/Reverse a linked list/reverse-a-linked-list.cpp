@@ -35,7 +35,7 @@ class Solution
     //Function to reverse a linked list.
     struct Node* reverseList(struct Node *head)
     {
-        Node* newhead = NULL ;
+         Node* newhead = NULL ;
         
         while(head != NULL){
             Node* next = head -> next ;
@@ -44,7 +44,8 @@ class Solution
             head = next ;
         }
         
-        return newhead ;
+        return newhead ;// code here
+        // return head of reversed list
     }
     
 };
